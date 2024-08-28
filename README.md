@@ -1,2 +1,2 @@
 # bridge-pay
- bridge pay web ui
+ bridge pay ui
