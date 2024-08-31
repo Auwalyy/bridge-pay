@@ -39,6 +39,7 @@ const Dashboard = () => {
                     <h3>Recent Transactions</h3>
                     <p>Your most recent transaction are displayed below</p>
                     <table>
+                        <tbody>
                         <tr>
                             <td className='td_title'>Channel</td>
                             <td className='td_title'>Amount</td>
@@ -67,11 +68,14 @@ const Dashboard = () => {
                             <td className='status-successful'>successfull</td>
                             <td>Mar 29  2024</td>
                         </tr>
-                            <td>Boomplay</td>
+                        <tr>
+                        <td>Boomplay</td>
                             <td>$12.99</td>
                             <td>payment request</td>
                             <td className='status-cancelled'>cancelled</td>
                             <td>Jul 12  2024</td>
+                        </tr>
+                        </tbody>
                     </table>
                  </div>
             </div>
