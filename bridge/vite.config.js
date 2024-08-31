@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['react-router-dom']
+      // Remove 'external' configuration to include dependencies in the bundle
     }
   }
 })
